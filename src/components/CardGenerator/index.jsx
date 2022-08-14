@@ -1,7 +1,15 @@
+import '../../styles/css/CardGenerator.css'
+
 const CardGenerator = () => {
   return (
-    <div>
-      Card Generator
+    <div className="card-generator">
+      <form>
+        <label htmlFor="task">Coloque a sua tarefa aqui</label>
+        <input type="text" name="task"/>
+        <div className="card-generator_options">
+          <button>Criar</button>
+        </div>
+      </form>
     </div>
   )
 }
