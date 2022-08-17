@@ -9,7 +9,6 @@ function App() {
         <h1 className="title">Lista de Afazeres</h1>
         <h3 className="subtitle">Coloque aqui a suas tarefas do dia para ter um melhor controle</h3>
         <CardGenerator />
-        <Cards />
       </div>
     </div>
   );
