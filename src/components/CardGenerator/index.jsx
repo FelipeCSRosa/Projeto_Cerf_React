@@ -27,7 +27,7 @@ const CardGenerator = () => {
           <button type='submit'>Criar</button>
         </div>
       </form>
-      <Cards info={cards}/>
+      <Cards info={cards} setCards={setCards}/>
     </div>
   )
 }
